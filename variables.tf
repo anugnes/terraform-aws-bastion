@@ -3,6 +3,10 @@ variable "name" {
   description = "Bastion host instance name"
 }
 
+variable "ami" {
+  description = "AMI for the image to use"
+}
+
 variable "vpc_id" {
   description = "ID for the VPC you want to deploy the bastion host in"
 }
