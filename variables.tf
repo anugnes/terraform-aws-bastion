@@ -15,10 +15,6 @@ variable "vpc_cidr" {
   description = "VPC CIDR blocks"
 }
 
-variable "region" {
-  description = "Region to deploy to"
-}
-
 variable "public_subnet_ids" {
   description = "IDs for the public subnet(s) you want your bastion host to join"
 }
